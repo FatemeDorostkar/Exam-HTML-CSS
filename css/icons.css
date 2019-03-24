@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+main{
+    margin: 10px;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #1E90FF;
+    border: none;
+}
+li a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 12px 10px;
+}
+li:hover{
+    background-color: rgb(114, 178, 241)
+}
+li a:hover{
+    color: darkblue;
+}
+@media(max-width:700px){
+    li{
+        display: block;
+    }
+
+}

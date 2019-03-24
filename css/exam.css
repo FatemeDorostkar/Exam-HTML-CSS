@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.header{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: medium;
+}
+div.logo{
+    flex: 30%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+div.navbar{
+    flex: 70%;
+    width: 100%;
+    text-align: right;
+}
+.donate{
+    background-color: #E14F42;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+}
+ul.menu{
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 30px;
+}
+li{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-right: 1px solid black;
+    padding: 14px 16px;
+}
+li a.last{
+    border: none;
+}
+li a.active{
+    color: darkgreen;
+}
+li a:hover:not(.active){
+    color: #E14F42;
+}
+div.manifest{
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+div.motto{
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.664);
+    color: beige;
+    width: 40%;
+    height: 30%;
+    padding: 2% 5%;
+}
+div.main1{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: medium;
+}
+div.main1Left{
+    flex: 60%;
+    width: 100%;
+    margin-right: 120px;
+    display: flex;
+}
+div.main1Left1{
+    flex: 40%;
+    width: 100%;
+    margin-right: 5%;
+}
+div.main1Left2{
+    flex: 60%;
+    width: 100%;
+    padding-top: 11%;
+}
+div.main1Right{
+    flex: 40%;
+    width: 100%;
+}
+.button{
+    background-color: #60BF93;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: medium;
+}
+.button:hover{
+    background-color: #E14F42;
+}
+.subtitle{
+    color: darkgreen;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-top: 20px;
+}
+a.link{
+    text-decoration: none;
+    color: darkgreen;
+}
+div.main2{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: medium;
+}
+div.main2Left{
+    flex: 25%;
+    width: 100%;
+    margin-right: 20px;
+}
+div.main2Right{
+    flex: 75%;
+    width: 100%;
+}
+.campaignsImages{
+    background-color:#F8F7F7;
+    padding: 8px 10px;
+    margin: 10px 10px;
+}
+table.LatestNews{
+    width: 80%;
+    height: 40%;
+    border-spacing: 10px;
+    margin-bottom: 10px;
+}
+table.LatestNews td{
+    padding: 0px 10px;
+}
+table.LatestNews td:nth-child(odd){
+    background-color: #60BF93;
+    color: white;
+    text-align: center;
+}
+table.LatestNews td:nth-child(even) p:nth-child(odd){
+    font-size: 1em;
+}
+table.LatestNews td:nth-child(even) p:nth-child(even){
+    font-size: small;
+    color: rgb(173, 173, 173);
+}
+hr.date{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    border: none;
+}
+table.testimonials{
+    width: 100%;
+    height: 40%;
+}
+table.testimonials tr:nth-child(1){
+    background-color: #60BF93;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
+}
+table.testimonials tr:nth-child(2){
+    background-color: #EDEDED;
+    text-align: center;
+    padding: 10px;
+}
+q{
+    font-size: small;
+    color: rgb(116, 112, 112);
+}
+table.testimonials td{
+    padding: 20px;
+}
+h4.name{
+    text-align: right;
+    font-weight: normal;
+}
+div.main3{
+    display: flex;
+    width: 100%;
+    font-size: medium;
+}
+div.main3Left{
+    flex: 50%;
+    width: 100%;
+    background-color: #CBCBCA;
+    margin-right: 1px;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+div.main3Right{
+    flex: 50%;
+    width: 100%;
+    background-color: #CBCBCA;
+    padding-left: 15%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+input#emailBox{
+    padding-left: 10px;
+    width: 300px;
+    height: 40px;
+    font-style: italic;
+    font-size: medium;
+}
+p.social{
+    color: rgb(116, 112, 112);
+    font-size: small;
+}
+.socialIcon{
+    background-color: #60BF93;
+    padding: 10px;
+    font-size: 1.5em;
+    color: white;
+}
+.socialIcon:hover{
+    background-color: #E14F42;
+}
+div.footer{
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: small;
+    color: rgb(116, 112, 112);
+}
+p.goToTopPar{
+    text-align: right;
+}
+.goToTop{
+    background-color: white;
+    font-size: 2em;
+    color: #60BF93;
+    text-align: right;
+}
+.goToTop:hover{
+    color: #E14F42;
+}
+@media (max-width: 700px){
+    .header, .main1, .main1Left, .main2, .main3{
+        flex-direction: column;
+    }
+    li{
+        display: block;
+    }
+    .motto{
+        font-size: 5px;
+    }
+}

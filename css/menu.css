@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: medium;
+}
+nav{
+    margin: 10px;
+}
+div.menu{
+    display: flex;
+    background-color: #555555;
+}
+
+div.menu a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+div.menu a:hover:not(.active){
+    background: #ddd;
+    color: black;
+}
+.active{
+    background-color: #4CAF50;
+} 
+@media screen and (max-width: 700px) {
+
+    .menu {
+        flex-direction: column;
+    }
+}
